@@ -12,6 +12,8 @@ public class HomePageTest extends TestBase {
 //        String startSearchFilmPage = homePage.clickOnSeatchFilm().inputFilmTitle
 //                ().scrollToTheActorsListAndClick().TheActorName();
 
+
+
 //        Assert.assertTrue(homePage.clickOnSeatchFilm().inputFilmTitle
 //                ().scrollToTheActorsListAndClick().theNametOfActor.getText().contains("Jake Gyllenhaal"));
 
