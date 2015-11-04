@@ -24,7 +24,6 @@ public class TestBase {
         webDriver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         webDriver.get("https://my-hit.org/");
         homePage = PageFactory.initElements(webDriver, HomePage.class);
-
     }
 
     @AfterMethod
