@@ -9,15 +9,12 @@ public class HomePageTest extends TestBase {
     @Test
     public void testHomePage() throws Exception {
 
-//        String startSearchFilmPage = homePage.clickOnSeatchFilm().inputFilmTitle
-//                ().scrollToTheActorsListAndClick().TheActorName();
-
 //        Assert.assertTrue(homePage.clickOnSeatchFilm().inputFilmTitle
 //                ().scrollToTheActorsListAndClick().theNametOfActor.getText().contains("Jake Gyllenhaal"));
 
         Assert.assertEquals(homePage.clickOnSeatchFilm().inputFilmTitle
                 ().scrollToTheActorsListAndClick().theNametOfActor.getText(), "Jake Gyllenhaal");
 
-//        Assert.assertTrue(homePage.isSearchButtonDisplayed(), "Seatch button is not displayed");
+//        Assert.assertTrue(homePage.isSearchButtonDisplayed(), "Search button is not displayed");
     }
 }
